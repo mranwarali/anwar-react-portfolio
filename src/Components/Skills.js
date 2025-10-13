@@ -1,26 +1,27 @@
-import React from 'react'; 
-// import { CgCPlusPlus } from "react-icons/cg";
-import {FaReact, FaGitAlt, FaGithub, FaFigma, FaBootstrap} from "react-icons/fa";
-import {DiJavascript1} from "react-icons/di";
-// import {SiExpress, SiMongodb, SiPostman, SiVercel} from "react-icons/si";
+import React from 'react';
+import { FaReact, FaGitAlt, FaGithub, FaFigma, FaBootstrap, FaPython, FaHtml5 } from "react-icons/fa";
+import { DiJavascript1 } from "react-icons/di";
+import { SiCss3, SiDjango, SiTailwindcss, SiMui, SiMysql, SiRedux } from "react-icons/si";
 
-const Skills = ({skill}) => {
-    const icon = {
-        // 'C++': <CgCPlusPlus/>,
-        // Postman: <SiPostman/>,
-        React: <FaReact/>,
-        Javascript: <DiJavascript1/>,
-        // Node : <DiNodejs/>,
-        // Express : <SiExpress/>,
-        // MongoDb : <SiMongodb/>,
-        Git : <FaGitAlt/>,
-        Github : <FaGithub/>,
-        // Npm : <FaNpm/>,
-        Figma : <FaFigma/>,
-        Bootstrap: <FaBootstrap/>,
-        // Vercel : <SiVercel/>
-    }
-    
+const Skills = ({ skill }) => {
+  const icon = {
+    Python: <FaPython />,
+    Django: <SiDjango />,
+    React: <FaReact />,
+    Redux: <SiRedux />,
+    Javascript: <DiJavascript1 />,
+    HTML: <FaHtml5 />,
+    CSS: <SiCss3 />,
+    TailwindCSS: <SiTailwindcss />,
+    MaterialUI: <SiMui />,
+    MySQL: <SiMysql />,
+    Git: <FaGitAlt />,
+    Github: <FaGithub />,
+    Figma: <FaFigma />,
+    Bootstrap: <FaBootstrap />,
+
+  }
+
   return (
     <div title={skill} className='SkillBox'>
       {icon[skill]}
