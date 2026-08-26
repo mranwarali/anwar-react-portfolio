@@ -13,7 +13,7 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     GreenOrganicGithub : "https://github.com/mranwarali/organic_store",
     GreenOrganicWebsite : "https://github.com/mranwarali",
 
-    PortfolioDesc : "A portfolio website is a website that displays your work, skills, and experience. It's a digital resume or gallery that helps you showcase your work to potential clients and employers. ",
+    PortfolioDesc : "A portfolio website is a website that displays your work, skills, and experience. It's a digital resume or gallery that helps you showcase your work to potential clients and employers.",
     PortfolioGithub : "https://github.com/mranwarali/react_portfolio",
     PortfolioWebsite : "https://github.com/mranwarali",
 
